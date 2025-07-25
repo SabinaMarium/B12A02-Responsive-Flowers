@@ -200,3 +200,38 @@ position: relative;
     right: 150px;
    color: #FFFFFF;
   }
+  /* banner with email */
+  .max-banner-image{
+   height:533px;
+    width:100%;
+    margin:0%;
+    border:0%;
+    padding: 0%; 
+  }
+  .max-banner{
+    position: relative;
+    
+  }
+.max-banner-context{
+  position:absolute;
+  top: 120px;
+  right: 300px;
+}
+.max-banner-input{
+  padding: 8px 20px;
+  border: none;
+  width: 644px;
+}
+.max-banner-button{
+  padding:8px 50px;
+  width: 186px;
+  background-color: #E95A08;
+  color: #FFFFFF;
+border: none;
+text-align: center;
+}
+.max-banner-context-box{
+  display: flex;
+  gap:0px;
+  height:50px;
+}
