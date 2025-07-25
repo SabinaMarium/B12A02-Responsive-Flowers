@@ -273,3 +273,186 @@ footer section div ul li a{
 footer section div ul li a:hover{
   background-color: aquamarine;
 }
+/* Responsive media query */
+ @media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* Navbar cleanup */
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-items {
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .nav-items-hide {
+    display: none;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 40px;
+    height: auto;
+  }
+
+  .banner-heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Card Layout: Two items per row */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards-button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .card-context {
+    font-size: 16px;
+  }
+
+  /* Hide spinning badge */
+  .second-banner-badge {
+    display: none;
+  }
+
+  /* Stack second banner */
+  .second-banner {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  .second-banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .second-banner-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  ul li p {
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+
+  /* Deals section */
+  .image-card-container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .card-row-image,
+  .card-third-image {
+    position: static;
+  }
+
+  .card-row-first-image,
+  .card-row-second-image,
+  .card-third-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .card-row-first-image-text,
+  .card-row-second-image-text-two,
+  .card-third-image-text-three {
+    position: static;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    background: transparent;
+    margin-bottom: 5px;
+  }
+
+  /* Newsletter Banner: Centered email & button over image */
+  .max-banner {
+    position: relative;
+    text-align: center;
+  }
+
+  .max-banner-context {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 2;
+  }
+
+  .max-banner-input,
+  .max-banner-button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+
+  .max-banner-context-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .max-banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .footer-list {
+    grid-template-columns: 1fr;
+    font-size: 14px;
+  }
+
+  .footer-image {
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
