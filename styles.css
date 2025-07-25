@@ -153,3 +153,50 @@ position: relative;
     left:390px;
     animation:badge-animation 5s linear infinite; 
   }
+   /* image cards */
+  .image-card-container{
+    display: flex;
+    flex: 1;
+    height: 423px;
+    margin-bottom: 120px;
+    
+  }
+  .card-row-image{
+   position: relative; 
+  }
+  .card-row-first-image{
+    margin-bottom: 20px;
+  }
+  .card-row-first-image-text{
+    position: absolute;
+    font-family: "Noto Serif", serif;
+   font-weight: bold; 
+   font-size: 20px; 
+   text-align:center;
+    top: 45px;
+    right: 85px;
+   color: #FFFFFF;
+  }
+  .card-row-second-image-text-two{
+    position: absolute;
+    font-family: "Noto Serif", serif;
+   font-weight: bold; 
+   font-size: 20px; 
+   text-align:center;
+    top: 280px;
+    right: 100px;
+   color: #FFFFFF;
+  }
+  .card-third-image{
+    position: relative;
+  }
+  .card-third-image-text-three{
+    position: absolute;
+    font-family: "Noto Serif", serif;
+   font-weight: bold; 
+   font-size: 40px; 
+   text-align:center;
+    top: 110px;
+    right: 150px;
+   color: #FFFFFF;
+  }
