@@ -117,3 +117,39 @@ border: none;
     text-align: center;
     margin-bottom: 210px;
     }
+/* 2nd banner */
+   .second-banner-image{
+   height:597px ;
+   width:540 ;
+   
+   
+} 
+ .second-banner-heading{
+font-family: "Noto Serif", serif;
+   font-weight: bold; 
+   font-size: 50px; 
+   text-align:left;
+   margin-bottom: 0px;
+ }
+ .second-banner{
+  display: flex;
+  justify-content:space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 133px;
+position: relative;
+ }
+ @keyframes badge-animation{
+  0%{opacity:0;
+  transform: rotate(0deg);}
+  100%{opacity:1;
+  transform: rotate(360deg);}
+ }
+ .second-banner-badge{
+    height:286px ;
+    width:286px ;
+    position: absolute;
+    top:-120px;
+    left:390px;
+    animation:badge-animation 5s linear infinite; 
+  }
